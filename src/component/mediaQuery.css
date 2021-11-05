@@ -1,0 +1,205 @@
+
+@media screen
+  and (max-device-width: 986px)
+{
+          body
+          {
+            padding:0px !important;
+          }
+
+          header
+          {
+            position:fixed;
+            top:0;
+            height:80px;
+          }
+
+          .nav-menu
+          {
+            gap:1rem;
+            
+          }
+
+          .nav-menu>a>button>h1
+          {
+            font-size: 1rem;
+          }
+
+          .nav-menu>a>button>h1:hover
+          {
+              font-size:1.5rem !important;
+          }
+          
+          .active-button>button>h1
+          {
+              font-size:1.5rem !important;  
+              text-decoration:4px underline;
+              text-decoration-color: var(--accent);
+          }
+          
+
+
+
+
+
+          /* ----------------landing-page---------- */
+
+          .landing-page
+          {
+            margin-top: 10rem;
+          }
+          
+          .hello
+          {
+            /* display: none; */
+            margin-bottom:3rem;
+            font-size: 30vw !important;
+          }
+
+
+          .landing-title
+          {
+            margin: auto auto;
+            width:80%;
+          }
+          .landing-buttons
+        {
+            width:100%;
+        }
+
+          /*------------- about page----------- */
+          .about{padding:1rem !important;}  
+          .about-me
+            { 
+              margin-top:3rem;
+              flex-flow: column-reverse !important;
+              gap:0rem;
+              justify-content: center;
+              align-items: center;
+            }
+        .about-para
+        {
+          padding:0px !important;
+        }
+            .details{width:93%;}
+            .about-me>img
+            {
+              height:30%;
+              width:50%;
+            }
+
+            .about-flex-div
+            { width:100%;
+              flex-flow: column !important;
+            }
+
+            .about-card-div
+            {width:100%;
+              margin-top:4rem;
+            text-align: center !important;}
+              .about-cards-body
+              {
+                
+                padding:1rem !important;
+              }
+              
+            .about-card
+            {width:50%;
+              /* text-align: left !important; */
+            }
+
+            .sub-title
+            {color:var(--accent);
+              font-size: 1rem !important;
+            }
+
+            .progress-div
+            {
+              width:100%;
+            }
+            .progress-inner-div
+        {
+            margin-top:5rem;
+        }
+
+        #cta-div>p
+        {
+            font-size: 1rem;
+            
+        }
+
+        #cta-div>h1>a
+        {
+            font-size: 2rem;
+        }
+
+            /*--------------- portfolio-page----------- */
+            .project-card{height:auto !important;}
+            .project-card-body
+          {
+            display:flex;
+            flex-flow:column-reverse;
+            }
+            
+            .project-details
+            {
+              width:100%;
+            }
+
+              /*--------------- contact-page---------- */
+
+              .query-section
+              {
+                margin-top: 5rem;
+              }
+              .contact-inner-div
+        {
+            margin:auto auto;
+            
+            width:100%;
+        }
+
+}
+ 
+
+
+
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+  and (max-device-width: 986px)
+{}
+
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen
+  and (min-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2){
+   
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px)
+  and (device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px)
+  and (min-device-width: 375px)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
