@@ -20,7 +20,7 @@ const Portfolio = () => {
               <div className="project-details">
                   <h1 className="p-3 mt-5">{e.name}</h1>
                   <p className="p-4 mt-2">{e.description}</p>
-              <a href="/contact"><button type="button" className="btn btn-sm px-2">View Project</button></a>
+              <a href={e.siteurl}><button type="button" className="btn btn-sm px-2">View Project</button></a>
               </div>
                 <div className="project-img-div">
                   <img src={e.image} alt="project-img"/>
