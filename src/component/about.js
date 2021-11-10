@@ -1,9 +1,33 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
+import gsap from 'gsap'
 import me from './me2.jpeg'
 const About = () => {
+
+
+  let timeline = gsap.timeline();
+  let pageItems = useRef(null);
+
+  useEffect(() => {
+  
+    timeline.to (
+      pageItems,
+      {
+        duration:0.4,
+      opacity:1,
+      y:-35,}
+    
+    
+    )
+  
+  
+  },"-=.5")
+
+
+
     return (
-      <div className="about">
+
+      <div ref={el=>{ pageItems = el }} className="about">
         
 
 <div className="col-one">

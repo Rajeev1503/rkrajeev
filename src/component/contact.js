@@ -1,8 +1,31 @@
-import React from 'react'
-
+import React, {useRef, useEffect} from 'react'
+import gsap from 'gsap';
 const Contact = () => {
+
+
+
+  let timeline = gsap.timeline();
+  let pageItems = useRef(null);
+
+  useEffect(() => {
+  
+    timeline.to (
+      pageItems,
+      {
+      
+      duration:0.4,
+      opacity:1,
+      y:-35,}
+    
+    
+    )
+  
+  
+  })
+
+
     return (
-        <div className="contact">
+        <div ref={el=>{ pageItems = el }} className="contact">
 
             <div className="section-title">
             <h1>Get In Touch.</h1>
@@ -20,7 +43,7 @@ const Contact = () => {
             <div className="mb-3">
               <textarea className="form-control " id="exampleFormControlTextarea1" rows="6" placeholder="Your Query"></textarea>
             </div>
-            <a href="/aa"><button className="btn btn-primary btn-lg px-4 mb-5 mt-4">Submit</button></a>
+            <a href="/aa"><button className="btn-lg px-4 mb-5 mt-4">Submit</button></a>
             </div>
             </div>
             
