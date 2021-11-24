@@ -32,7 +32,7 @@ useEffect(() => {
               <div className="landing-name-div">
                 <h1 className="hello">hello.</h1>
                 <h4 className="landing-title">Front-end &amp; UI <span className="landing-title-span">Developer</span></h4>
-                   <p className="landing-about mt-4">"I express my creativity through code"</p>
+                   {/* <p className="landing-about mt-4">"I express my creativity through code"</p> */}
               </div> 
               <div className="landing-buttons mt-3 d-flex flex-column flex-wrap gap-4"> 
             <NavLink to="/contact">  <button type="button" className="btn-lg px-4">Hire Me  &nbsp;<i className="fas fa-thumbs-up"></i></button></NavLink>

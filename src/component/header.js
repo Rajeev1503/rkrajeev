@@ -5,21 +5,24 @@ import gsap from 'gsap';
 const Header = () => 
 
 {
+    
+
     const [HamToggle, setHamToggle] = useState(true);
-   
+
+    // const navlinksToggle = document.querySelectorAll(".ham-button");
+    //     navlinksToggle.forEach(e=>
+    //         {
+    //             e.addEventListener('click', function () {
+    //             toggle();});
+    //         }); 
 
     function toggle()
     { 
         
+        
         const hamMenu = document.querySelector(".ham-menu-inner");
         const toggleicon = document.querySelector("#toggleicon");
-        // const navlinksToggle = document.querySelectorAll(".ham-button");
-        // navlinksToggle.forEach(e=>
-        //     {
-        //         e.addEventListener('click', function () { setHamToggle(false); })
-        //         toggle();
-        //     }); 
-        setHamToggle(true);
+        
         if(HamToggle===true)
             {
                 
@@ -35,6 +38,7 @@ const Header = () =>
                 toggleicon.classList.remove("fa-times");
                 toggleicon.classList.add("fa-bars");
                 hamMenu.style.transform="translateY(100vh)";
+                setHamToggle(true);
             }
     };
 
@@ -85,9 +89,9 @@ const Header = () =>
         <button onClick={toggle} className="togglebtn"><i className="fas fa-bars" id="toggleicon" ></i></button>
         <div className="ham-menu-inner">
         <div className="ham-nav-menu">
-        <NavLink activeClassName="ham-active-button" to="/about"><button className="ham-button"><h1> About</h1></button></NavLink>
-        <NavLink activeClassName="ham-active-button" to="/portfolio"><button className="ham-button"><h1> Portfolio</h1></button></NavLink>
-        <NavLink activeClassName="ham-active-button" to="/contact"><button className="ham-button"><h1> Contact</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to="/about"><button onClick={toggle} className="ham-button"><h1> About</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to="/portfolio"><button onClick={toggle} className="ham-button"><h1> Portfolio</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to="/contact"><button onClick={toggle} className="ham-button"><h1> Contact</h1></button></NavLink>
         </div>
         </div>
         </div>

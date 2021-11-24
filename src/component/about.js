@@ -81,7 +81,7 @@ const About = () => {
 
              <div className="about-card shadow">
               <div className="about-cards-body">
-              <i className="fas fa-palette fa-2x"></i><i class="fas fa-paint-brush"></i>
+              <i className="fas fa-palette fa-2x"></i><i className="fas fa-paint-brush"></i>
                 {/* <h3 className="cards-title fs-1">UI <br/> Design</h3> */}
                 <p className="cards-text mt-4 fw-bold">I like to keep my design minimalistic.</p>
                 <div className="card-lists mt-5">
