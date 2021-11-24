@@ -89,9 +89,9 @@ const Header = () =>
         <button onClick={toggle} className="togglebtn"><i className="fas fa-bars" id="toggleicon" ></i></button>
         <div className="ham-menu-inner">
         <div className="ham-nav-menu">
-        <NavLink activeClassName="ham-active-button" to="/about"><button onClick={toggle} className="ham-button"><h1> About</h1></button></NavLink>
-        <NavLink activeClassName="ham-active-button" to="/portfolio"><button onClick={toggle} className="ham-button"><h1> Portfolio</h1></button></NavLink>
-        <NavLink activeClassName="ham-active-button" to="/contact"><button onClick={toggle} className="ham-button"><h1> Contact</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to='/about'><button onClick={toggle} className="ham-button"><h1> About</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to='/portfolio'><button onClick={toggle} className="ham-button"><h1> Portfolio</h1></button></NavLink>
+        <NavLink activeClassName="ham-active-button" to='/contact'><button onClick={toggle} className="ham-button"><h1> Contact</h1></button></NavLink>
         </div>
         </div>
         </div>
