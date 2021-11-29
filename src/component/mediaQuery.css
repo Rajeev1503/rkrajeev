@@ -222,6 +222,26 @@
             width:100%;
         }
 
+
+
+        .sites
+            {
+              text-align: center;
+              display: flex;
+              flex-flow:column;
+              gap:3rem;
+              margin:5rem 0rem 10rem 0rem !important;
+            }
+.sites>a
+{
+  
+}
+
+.sites>a>img
+{
+      width:60% !important;
+}
+
 }
  
 

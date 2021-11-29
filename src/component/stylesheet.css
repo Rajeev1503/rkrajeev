@@ -227,7 +227,7 @@ header
 
 .col-two
 {
-    margin-top: 6rem;
+    margin-top: 0rem;
     width: 100%;
 }
 
@@ -429,6 +429,35 @@ header
 /*----------------------------- contact Component-----------------------*/
 
 
+.sites
+{
+    margin:5rem;
+    display: flex;
+    flex-flow:row;
+    margin-bottom:12rem !important;
+}
+
+.sites>a
+{
+    text-align: center;
+    width: auto;
+}
+
+.sites>a>img
+{
+    width:80%;  
+}
+
+.freelancer
+{
+    width:100% !important;
+}
+
+
+
+
+
+
 .contact-inner-div
 {
     margin:auto auto;
@@ -457,6 +486,6 @@ input, textarea
 
 .query-section>p
 {
-    font-size:0.8rem;
-    letter-spacing: 0.5rem;
+    font-size:0.5rem;
+    letter-spacing: 0.3rem;
 }

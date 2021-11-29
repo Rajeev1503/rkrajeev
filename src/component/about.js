@@ -1,5 +1,8 @@
 import React, {useRef, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
+import upwork from './upwork.png';
+import fiverr from './fiverr.png';
+import freelancer from './freelancer.png';
 import gsap from 'gsap'
 import me from './me2.jpeg'
 const About = () => {
@@ -40,7 +43,14 @@ const About = () => {
         computer science engineer with skills in Front-End Web Development and have 
         almost 1 year of experience with almost 20+ projects completed on different platforms.</p>
         <p className="email">Email: <span>rk.rajeevkr1503@gmail.com</span></p>
-          <p className="social">On The Internet: <i className="fab fa-twitter"></i> &nbsp;<i className="fab fa-linkedin"></i></p></div>
+          {/* <p className="social">On The Internet: <i className="fab fa-twitter"></i> &nbsp;<i className="fab fa-linkedin"></i></p> */}
+          <div className="sites">
+                <a href='https://www.fiverr.com/rajeevkr1503'><img src={fiverr}></img></a>
+                <a href='https://www.freelancer.in/u/rkrajeevkr1503'><img className="freelancer" src={freelancer}></img></a>
+                <a href='https://www.upwork.com/freelancers/~01921b290e59a610f2'><img src={upwork}></img></a>
+              </div>
+          </div>
+          
         <img src={me} alt="me"/>
         </div>
         </div>

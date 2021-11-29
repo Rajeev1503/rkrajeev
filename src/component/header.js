@@ -51,7 +51,7 @@ const Header = () =>
         hamMenu.style.width="100%";
         hamMenu.style.background="black";
         hamMenu.style.transform="translateY(0)";
-        hamMenu.style.transition="all 0.8s";
+        hamMenu.style.transition="all 0.6s";
         
     };
 
