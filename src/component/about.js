@@ -4,7 +4,7 @@ import upwork from './upwork.png';
 import fiverr from './fiverr.png';
 import freelancer from './freelancer.png';
 import gsap from 'gsap'
-import me from './me2.jpeg'
+import me from './me.jpeg'
 const About = () => {
 
 
